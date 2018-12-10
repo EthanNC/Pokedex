@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#3c5aa6">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffee00"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+
+        />
+
+   <!-- -->
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="723dp"
+        android:id="@+id/fragment_container"
+    tools:context="com.example.ethan.pokedex.PokemonFrag"
+           android:background="#3c5aa6">
+           <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:weightSum="1">
+
+   TODO: Update blank fragment layout
+           <TextView
+               android:id="@+id/typeView"
+               android:textAlignment="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment"
+               android:textAllCaps="true"
+               android:textColor="#ffee00"
+               android:shadowColor="#000000"
+               android:shadowDx="1.5"
+               android:shadowDy="1.3"
+               android:shadowRadius="1.6"/>
+
+           <TextView
+               android:id="@+id/heightView"
+               android:textAlignment="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/hello_blank_fragment"
+               android:textAllCaps="true"
+               android:textColor="#ffee00"
+               android:shadowColor="#000000"
+               android:shadowDx="1.5"
+               android:shadowDy="1.3"
+               android:shadowRadius="1.6"/>
+
+           <TextView
+               android:id="@+id/weightView"
+               android:textAlignment="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="@string/hello_blank_fragment"
+               android:textAllCaps="true"
+               android:textColor="#ffee00"
+               android:shadowColor="#000000"
+               android:shadowDx="1.5"
+               android:shadowDy="1.3"
+               android:shadowRadius="1.6"/>
+
+               <android.support.design.widget.FloatingActionButton
+                   android:id="@+id/floatingActionButton"
+                   android:layout_gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:clickable="true"
+                   app:backgroundTint="#ffee00"
+                   app:fabSize="mini"
+                   app:srcCompat="@drawable/pokeball" />
+
+           </LinearLayout>
+
+</FrameLayout>
+
+</LinearLayout>
